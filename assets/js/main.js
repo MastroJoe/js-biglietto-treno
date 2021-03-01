@@ -28,4 +28,4 @@ if (eta < 18) {
 console.log(biglietto);
 console.log(minorenni);
 console.log(over65);
-console.log("Il prezzo del viaggio: " + viaggio + "€");
+console.log("Il prezzo del viaggio: " + viaggio + " €");
