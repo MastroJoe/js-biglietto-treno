@@ -1,7 +1,7 @@
 // INPUT
-// età
+// chiedo età
 var eta = prompt("Inserisci la tua età:");
-// chilometri
+// chiedo chilometri
 var chilometri = prompt("Inserisci quanti chilometri vuoi percorrere:");
 
 console.log(parseInt(eta));
@@ -29,3 +29,5 @@ console.log(biglietto);
 console.log(minorenni);
 console.log(over65);
 console.log("Il prezzo del viaggio: " + viaggio + " €");
+
+document.getElementById("viaggio").innerHTML = viaggio
